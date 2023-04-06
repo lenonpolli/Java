@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class App {
+    public static void main(String[] args) throws Exception {
+
+        double saldo, reajuste, reajuste1;
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("INFORME UM SALDO");
+        saldo = sc.nextDouble();
+        reajuste = (saldo * 0.01) + saldo;
+        reajuste1 = saldo - (saldo * 0.01);
+        System.out.println("saldo reajustado para + " + reajuste);
+        System.out.println("saldo reajustado para menos " + reajuste1);
+
+        sc.close();
+
+    }
+}

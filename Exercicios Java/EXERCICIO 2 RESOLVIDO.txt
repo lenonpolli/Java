@@ -1,0 +1,23 @@
+public class App {
+
+    public static void main(String[] args) throws Exception {
+
+        double mA, m, sm, md;
+
+        md = 6.5;
+
+        mA = (8 + 9 + 7) / 3;
+        m = (4 + 5 + 6) / 3;
+        sm = mA + m;
+
+        System.out.printf("A media aritimetica %.2f: ", mA);
+        System.out.printf("A media : %.2f", m);
+        System.out.printf("A soma das medias : %.2f", sm);
+        System.out.println("A media das medias : " + md);
+
+    }
+}
+// imprimir media aritmetica dos numeros 8,9 e 7
+// a media dos numeros 4,5 e 6
+// a soma daas duas medias
+// a media das medias
